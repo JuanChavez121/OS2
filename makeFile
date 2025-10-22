@@ -1,4 +1,4 @@
 time: main.c ipc.c time.c
-	gcc -o time main.c ipc.c
+	gcc -o time main.c ipc.c time.c -lrt
 clean:
 	rm -f time
